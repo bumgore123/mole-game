@@ -4,23 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>두더지 게임</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <title>게임</title>
 </head>
 
 <body>
-    <h1 id="message"> Message </h1>
-    <h2 id="timer"> Time: 00:60</h2>
-    <button onclick="startmusic()" id="SS"> sound on</button>
-    <button onclick="offmusic()" id="OS"> sound off</button>
-    <a href="home.html"><strong> go back </strong> </a>
-    <!-- h2 를 만들고, id = score -->
-    <h2 id="score"> 0 </h2>
-    <!-- div 를 만들고, id = gameBoard -->
-    <div id="gameBoard">
-        <!-- hole 을 9개 만들기, Javascript 를 활용해서 -->
-    </div>
-    <script src="script.js"></script>
+    <h1> 두더지 게임 </h1>
+    <p> 두더지는 빨간색 원 입니다. 빨간색 원을 클릭하고 점수를 얻어보세요!</p>
+    <figure>
+        <img src="./resources/screenshot.png" />
+        <figcaption> Game Preview </figcaption>
+    </figure>
+    <a href="index.html?difficulty=easy"><strong> Easy </strong> </a>
+    <a href="index.html?difficulty=normal"><strong> Normal </strong> </a>
+    <a href="index.html?difficulty=hard"><strong> Hard </strong> </a>
+    
 </body>
 
 </html>
