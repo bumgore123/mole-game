@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.hole {
+    width: 100px;
+    height: 100px;
+    background-color: #7cfc00;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.mole {
+    background-color: brown;
+}
